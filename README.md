@@ -24,15 +24,15 @@ queries = [1, 2, 3, 4, 5, 6]
 ### Explanation:
 + For queries[0] = 1, the only item with price ≤ 1 is [1, 2]. Hence the answer is 2.
 
-+For queries[1] = 2, the items that can be considered are [1, 2] and [2, 4]. The maximum beauty is 4.
++ For queries[1] = 2, the items that can be considered are [1, 2] and [2, 4]. The maximum beauty is 4.
 
-+For queries[2] = 3 and queries[3] = 4, the items that can be considered are [1, 2], [3, 2], [2, 4], [3, 5]. The maximum beauty is 5.
++ For queries[2] = 3 and queries[3] = 4, the items that can be considered are [1, 2], [3, 2], [2, 4], [3, 5]. The maximum beauty is 5.
 
-+For queries[4] = 5 and queries[5] = 6, all items can be considered. The maximum beauty is 6.
++ For queries[4] = 5 and queries[5] = 6, all items can be considered. The maximum beauty is 6.
 
 ### Constraints:
-+1 <= items.length, queries.length <= 10^5
++ 1 <= items.length, queries.length <= 10^5
 
-+items[i].length == 2
++ items[i].length == 2
 
-+1 <= price_i, beauty_i, queries[j] <= 10^9
++ 1 <= price_i, beauty_i, queries[j] <= 10^9
